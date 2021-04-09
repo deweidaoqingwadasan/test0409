@@ -3,6 +3,7 @@ package edu.zju.domain;
 public class Student {
     private String name;
     private String id;
+
     private String phone;
 
     public String getPhone() {
@@ -11,6 +12,15 @@ public class Student {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getId() {
